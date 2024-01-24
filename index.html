@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
+    <title>Portfolio</title>
+    <script>
+        function contact() {
+            n=document.querySelector('#con').value;
+            // console.log('hi');
+            document.querySelector('#num').innerHTML='+91-8790972440'
+            
+        }
+       // function int()
+        //{
+          //n=document.querySelector('#con').value;
+          //document.querySelector('#num').innerHTML=''//
+        //}//
+    </script>
+</head>
+
+<body>
+    <header>
+    
+        <div class="container">
+            <nav class="flex items-centre justify-between">
+                <div class="left flex justfiy-right">
+                    <div class="logo"> <img src="./logo.png" width="50px" alt="logo"> </div>
+                    <div> <a href="./index.html">Home</a> <a href="#about">About</a> <a href="#services">Services</a></li>
+                        </div>
+                </div>
+                <div class="right"> 
+                <button  id ="con" onclick="contact()" class="btn btn-primary">Contact</button><h3 id="num"></h3></div>
+            </nav>
+        </div>
+        <div class="hero flex items-centre justify-between">
+            <div class="left flex-1 justify-center">
+                <img src="./img.jpg.jpg" />
+
+
+            </div>
+
+            <div class="right flex-1">
+                <h6>PUTTHA NARASIMHA REDDY</h6>
+                <h1>
+                    I'm a Software<br />
+                    <span>Developer</span>
+                </h1>
+                <p>
+                    To be associated with your organization that provides me an opportunity to show my skill. 
+Improve my knowledge with latest trends and to be a part of the team that works dynamically 
+towards the growth of the organization and satisfactorily
+                </p>
+                <div><a href="https://drive.google.com/file/d/18bEBmMzFmATR6AXRoUyl_mBpa2eoZB8y/view?usp=drive_link"><button class="btn btn-secondary">DOWNLOAD CV</button></a></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container flex items-centre">
+            <div class="left flex-1 justify-right">
+                <img src="./flowers-276014_640.jpg"
+
+                    height="200px" alt="profile pic" />
+            </div>
+            <div class="right flex-1">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello! I'm PUTTHA NARASIMHA REDDY.</h3>
+                <p>
+                    A talented Software Engineer aspiring to gain a full-time position in a reputed company. Gained extensive experience in software development, testing, and development through internships. A highly motivated and hardworking individual skilled in Java, SQL, and Python.
+
+Seeking a position to utilize the gained skills and experience to positively contribute to the company.
+
+
+                </p>
+                <div class="socials">
+                    <a href="#"><img
+                            src="./java-logo-vector-1.svg"
+                            width="40px" /></a>
+                    <a href="#"><img
+                            src="./sql.png"
+                            width="40px" /></a>
+                    <a href="#"><img
+                            src="./python.jpeg"
+                            width="40px" /></a>
+                    <a href="#"><img
+                            src="./png-transparent-logo-html-html5.png"
+                            width="40px" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h1 class="services-head">Services</h1>
+            <p>All your digital needs... covered.</p>
+            <br><br>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="./dataentry.jpeg" />
+                    <h2>Data Entry</h2>
+                    <p>
+                        Accurately entered data into multiple databases with 100% accuracy
+Developed efficient data entry protocols to increase speed and accuracy
+Generated reports and tracked data trends to improve data entry processes
+Maintained data entry records and databases to ensure accuracy and completeness.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./Backend.png" />
+                    <h2>Backend Development</h2>
+                    <p>
+                        Backend developers are true problem-solvers dedicated to developing reliable, secure, and speedy applications. Backend Developers play a critical role in the development of web and mobile applications, providing the underlying infrastructure that supports the front-end user experience. They are responsible for designing, building, and maintaining the servers, databases, and APIs that power modern applications. Backend Developers must possess a strong technical foundation, including proficiency in programming languages, database management, and cloud computing.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./contentwriter.jpeg" />
+                    <h2>Content Writing</h2>
+                    <p>
+                        A dedicated and reliable individual seeking an entry-level position as a Content Writer. Gained valuable experience writing compelling copy for a variety of clients through freelance. With strong research and editing skills, eager to put my skills to use in a new setting and contribute to the success of the organization. 
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
